@@ -6,7 +6,7 @@ from functions import *
 #print(f"Atoms: {atoms(Or(And(Atom('p'), Not(Implies(Atom('p'), Not(Atom('q'))))), Not(Atom('q'))))}")
 #print(f"is negation normal form: {is_negation_normal_form(Or(Not(And(Atom('p'), Atom('s'))), Atom('p')))}")
 #print(f"number of atoms: {number_of_atoms(And(Atom('p'), Atom('q')))}")
-#print(f"Is Literal: {is_literal(Not(And(Atom('a'), Atom('b'))))}")
+print(f"Is Literal: {is_literal(Not(And(Atom('a'), Atom('b'))))}")
 #print(f"Is Term: {is_term(Or(Not(Atom('p')), Atom('r')))}")
 #print(f"Is Clause: {is_clause()}")
 #print(f"Is CNF: {is_cnf(And(Atom('p'),Or(Not(Atom('Q')), And(Not(Atom('p')), Atom('r')))))}")

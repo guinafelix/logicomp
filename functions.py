@@ -97,10 +97,7 @@ def is_literal(formula):
     if isinstance(formula, Atom):
         return True
     elif isinstance(formula, Not):
-        if isinstance(formula.inner, Atom):
-            return True
-        else:
-            return False
+        return is_literal(formula.inner)
     else:
         return False
 
