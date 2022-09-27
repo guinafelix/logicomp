@@ -68,7 +68,7 @@ def number_of_atoms(formula):
 
     must return 3 (Observe that this function counts the repetitions of atoms)
     """
-    pass  # ======== REMOVE THIS LINE AND INSERT YOUR CODE HERE ========
+    #pass   ======== REMOVE THIS LINE AND INSERT YOUR CODE HERE ========
     if isinstance(formula, Atom):
         return 1
     if isinstance(formula, Not):
